@@ -15,8 +15,8 @@ class ProjectSeeder extends Seeder
     {
         $project = new Project();
         $project->manager_id = '1';
-        $project->name_project = 'Website';
-        $project->category = 'IT';
+        $project->name_project = 'Website UMKM';
+        $project->category_id= '1';
         $project->description = 'Website umkm menggunakan laravel';
         $project->status = 'Inprogress';
         $project->save();
